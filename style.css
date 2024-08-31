@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    background-color: #3b054f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+header h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #3b054f;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Instructions Section */
+.instructions {
+    padding: 20px;
+    background-color: #f3f8fc;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.instructions h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.instructions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.instructions ul li {
+    background-image: url('icon.png'); /* You need to add the icon image */
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Login Box */
+.login-box {
+    padding: 20px;
+    background-color: #e6f2ff;
+    margin: 20px auto;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login-box h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.login-box input[type="text"],
+.login-box input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-box button {
+    padding: 10px 20px;
+    background-color: #006699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.login-box button:hover {
+    background-color: #005577;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #4B0C55;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .nav {
+            text-align: right;
+            padding: 10px;
+            background-color: #4B0C55;
+            color: white;
+        }
+
+        .nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .dashboard {
+            width: 300px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dashboard img {
+            display: block;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            background-color: #d3d3d3;
+        }
+
+        .dashboard .signature {
+            display: block;
+            margin: 10px auto;
+            width: 150px;
+            height: 50px;
+            background-color: #d3d3d3;
+        }
+
+        .dashboard h2 {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .dashboard .details {
+            margin: 10px 0;
+        }
+
+        .dashboard .details p {
+            margin: 5px 0;
+        }
+
+        .preview-download {
+            width: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .preview-download button {
+            padding: 10px;
+            width: 150px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+        }
+
+        .preview-download .preview {
+            background-color: #5F9DF7;
+        }
+
+        .preview-download .download {
+            background-color: #F2C94C;
+        }
+
+        .status {
+            text-align: center;
+            margin-top: 20px;
+            color: red;
+            font-size: 18px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4B0C55;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Dashboard</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Institutes</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Downloads</a>
+        <a href="#">Logout</a>
+    </div>
+
+    <div class="container">
+        <div class="dashboard">
+            <img src="images/Untitled-1.jpg" alt="Profile Picture">
+            <div class="signature">
+                
+            </div>
+            <h2>Details</h2>
+            <div class="details">
+                <p><strong>Roll Number:</strong> 413025</p>
+                <p><strong>Name:</strong> DHRUBAJYOTI TALUKDAR</p>
+                <p><strong>JLEE Rank:</strong> 58 (COMPUTER ENGINEERING)</p>
+            </div>
+
+            <h2>JLEE Mark Details</h2>
+            <div class="details">
+                <p><strong>Mathematics:</strong> 117</p>
+                <p><strong>Basic of Computer Science:</strong> 16</p>
+                <p><strong>Engineering Graphics:</strong> 4</p>
+                <p><strong>Branch:</strong> 29</p>
+                <p><strong>Total:</strong> 166</p>
+            </div>
+        </div>
+
+        <div class="preview-download">
+            <button class="preview">Preview</button>
+            <button class="download">Download</button>
+        </div>
+    </div>
+
+    <div class="status">
+        <p>You have not been allotted to any College in Round 1</p>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © DTE, ASSAM | All Rights Reserved</p>
+    </div>
+
+</body>
+
+</html>
